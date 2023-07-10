@@ -8,16 +8,16 @@ page {
     10 = FLUIDTEMPLATE
     10 {
         templateRootPaths {
-            20 = EXT:ucph_layout_one_column_left_menu/Resources/Private/Templates/Page/
-            21 = {$page.fluidtemplate.templateRootPath}
+            22 = EXT:ucph_layout_one_column_left_menu/Resources/Private/Templates/Page/
+            23 = {$page.fluidtemplate.templateRootPath}
         }
         partialRootPaths {
-            20 = EXT:ucph_layout_one_column_left_menu/Resources/Private/Partials/Page/
-            21 = {$page.fluidtemplate.partialRootPath}
+            22 = EXT:ucph_layout_one_column_left_menu/Resources/Private/Partials/Page/
+            23 = {$page.fluidtemplate.partialRootPath}
         }
         layoutRootPaths {
-            20 = EXT:ucph_layout_one_column_left_menu/Resources/Private/Layouts/Page/
-            21 = {$page.fluidtemplate.layoutRootPath}
+            22 = EXT:ucph_layout_one_column_left_menu/Resources/Private/Layouts/Page/
+            23 = {$page.fluidtemplate.layoutRootPath}
         }
     }
 }

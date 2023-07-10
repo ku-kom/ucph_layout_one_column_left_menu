@@ -5,7 +5,7 @@ mod {
     web_layout {
         BackendLayouts {
             ucph-one-column-left-menu {
-                icon = EXT:ucph_layout_one_column_left_menu/Resources/Public/Icons/ucph_layout_one_column_left_menu_left_menu.svg
+                icon = EXT:ucph_layout_one_column_left_menu/Resources/Public/Icons/ucph_layout_one_column_left_menu.svg
                 title = LLL:EXT:ucph_layout_one_column_left_menu/Resources/Private/Language/locallang_be.xlf:ucph_layout_one_column_left_menu_title
                 config {
                     backend_layout {

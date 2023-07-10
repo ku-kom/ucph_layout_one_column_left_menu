@@ -15,6 +15,6 @@ call_user_func(function ($extKey='ucph_layout_one_column_left_menu') {
     \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addStaticFile(
         $extKey,
         'Configuration/TypoScript',
-        'UCPH TYPO3 backend layout one column. No left menu.'
+        'UCPH TYPO3 backend layout one column with left menu.'
     );
 });
