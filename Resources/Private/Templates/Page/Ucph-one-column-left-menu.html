@@ -7,8 +7,9 @@
                 <f:render partial="Navigation/Subnavigation" arguments="{_all}" />
             </div>
             <main class="col-lg-9 main-content">
+                <f:render partial="Navigation/Breadcrumbs" arguments="{_all}" />
                 <f:if condition="{pageTitle}">
-                    <div class="container page-title">
+                    <div class="page-title">
                         <h1 class="page-heading">{pageTitle}</h1>
                     </div>
                 </f:if>
