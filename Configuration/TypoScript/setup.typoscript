@@ -12,12 +12,9 @@ page {
             23 = {$page.fluidtemplate.templateRootPath}
         }
         partialRootPaths {
-            22 = EXT:ucph_layout_one_column_left_menu/Resources/Private/Partials/Page/
+            # Partials are located in EXT:ucph_base_config
+            22 = EXT:ucph_base_config/Resources/Private/Partials/Page/
             23 = {$page.fluidtemplate.partialRootPath}
-        }
-        layoutRootPaths {
-            22 = EXT:ucph_layout_one_column_left_menu/Resources/Private/Layouts/Page/
-            23 = {$page.fluidtemplate.layoutRootPath}
         }
     }
 }

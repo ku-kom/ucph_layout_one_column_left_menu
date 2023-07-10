@@ -3,10 +3,8 @@
 ############
 page {
     fluidtemplate {
-        # cat=UCPH TYPO3 backend layout one column with left menu: templates/100/100; type=string; label=Layout Root Path: Path to layouts
-        layoutRootPath = EXT:ucph_layout_one_column_left_menu/Resources/Private/Layouts/Page/
         # cat=UCPH TYPO3 backend layout one column with left menu: templates/100/110; type=string; label=Partial Root Path: Path to partials
-        partialRootPath = EXT:ucph_layout_one_column_left_menu/Resources/Private/Partials/Page/
+        partialRootPath = EXT:ucph_base_config/Resources/Private/Partials/Page/
         # cat=UCPH TYPO3 backend layout one column with left menu: templates/100/120; type=string; label=Template Root Path: Path to templates
         templateRootPath = EXT:ucph_layout_one_column_left_menu/Resources/Private/Templates/Page/
     }
